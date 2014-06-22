@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test deck</title>
+  <title>Commercial Energy Rates App</title>
   <meta charset="utf-8">
-  <meta name="description" content="Test deck">
-  <meta name="author" content="">
+  <meta name="description" content="Commercial Energy Rates App">
+  <meta name="author" content="Anthony O'Farrell">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -32,9 +33,9 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1>Test deck</h1>
-    <h2></h2>
-    <p><br/></p>
+    <h1>Commercial Energy Rates App</h1>
+    <h2>Bubble plot and geo-visualization of of USA energy rates</h2>
+    <p>Anthony O'Farrell<br/>Developing Data Products - Coursera Project</p>
   </hgroup>
   <article></article>  
 </slide>
@@ -43,13 +44,13 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>USA Energy</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li>USA has a largely deregulated energy market.</li>
+<li>Commercial energy rates can vary substantially from state to state.</li>
+<li>The US Energy Information Administration (EIA) collects lots of useful data and makes it publicly available.</li>
 </ol>
 
   </article>
@@ -58,13 +59,45 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>Energy Information Administration (EIA)</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">plot(1:10, 1:10)
-</code></pre>
+    <ol>
+<li>The EIA website (<a href="http://www.eia.gov">www.eia.gov</a>) is a rich resource for energy information.</li>
+<li>It is updated on a regular basis.</li>
+<li>It is the go to site for anything energy related.</li>
+</ol>
 
-<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Commercial Energy Rates</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Commercial energy rates vary from state to state.</li>
+<li>The EIA collects data on commercial energy rates for every state.</li>
+<li>The data on commercial enery rates is updated monthly.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What the App does</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Scrapes commercial ernergy rate data from the EIA site.</li>
+<li>Scrapes state population data from the US Census site.</li>
+<li>The controls allow the user to filter out some of the data.</li>
+<li>The end result is a data visualization that takes useful publicly availabale energy data and delivers insight to an end user that might not be immediately apparent from the table of data provided by EIA.</li>
+</ol>
 
   </article>
   <!-- Presenter Notes -->
@@ -76,14 +109,26 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='USA Energy'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='Energy Information Administration (EIA)'>
          2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Commercial Energy Rates'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='What the App does'>
+         4
       </a>
     </li>
   </ul>
