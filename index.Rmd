@@ -13,22 +13,31 @@ mode        : selfcontained # {standalone, draft}
 
 ## USA Energy
 
-USA has a largely deregulated energy market.
-Commercial energy rates can vary substantially from state to state.
-The US Energy Information Administration (EIA) collects lots of useful data and makes it publicly available.
+1. USA has a largely deregulated energy market.
+2. Commercial energy rates can vary substantially from state to state.
+3. The US Energy Information Administration (EIA) collects lots of useful data and makes it publicly available.
 
 --- .class #id 
 
 ## Energy Information Administration (EIA)
 
-The EIA website (www.eia.gov) is a rich resource for energy information.
-It is updated on a regular basis.
-It is the go to site for anything energy related.
+1. The EIA website (www.eia.gov) is a rich resource for energy information.
+2. It is updated on a regular basis.
+3. It is the go to site for anything energy related.
 
 --- .class #id 
 
 ## Commercial Energy Rates
 
-Commercial energy rates vary from state to state.
-The EIA collects data on commercial energy rates for every state.
-The data on commercial enery rates is updated monthly.
+1. Commercial energy rates vary from state to state.
+2. The EIA collects data on commercial energy rates for every state.
+3. The data on commercial enery rates is updated monthly.
+
+--- .class #id 
+
+## What the App does
+
+1. Scrapes commercial ernergy rate data from the EIA site.
+2. Scrapes state population data from the US Census site.
+3. The controls allow the user to filter out some of the data.
+4. The end result is a data visualization that takes useful publicly availabale energy data and delivers insight to an end user that might not be immediately apparent from the table of data provided by EIA.
